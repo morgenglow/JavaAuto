@@ -1,9 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-//      Robot rob = new Robot("Rob", 10, 9);
-//      Human fil = new Human("Fil", 5, 5);
-//      Cat john = new Cat("John", 20, 30);
 
       Wall[] walls = new Wall[5];
         for (int i=0; i<walls.length; i++) {
@@ -36,12 +33,5 @@ public class Main {
                 if (humans[i].flagJ==false) i++;
             }
 
-
-//      rob.pleaseJump(wall.height);
-//      rob.pleaseRun(racetrack.length);
-//      fil.pleaseJump(wall.height);
-//      fil.pleaseRun(racetrack.length);
-//      john.pleaseJump(wall.height);
-//      john.pleaseRun(racetrack.length);
     }
 }
